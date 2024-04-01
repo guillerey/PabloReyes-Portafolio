@@ -1,3 +1,6 @@
+body {
+  font-family:'PT Sans', sans-serif !important;
+}
 
 
 .encabezado { 
@@ -19,7 +22,7 @@
     text-indent: 0px;
 }
 
-.encabezado2 {
+h2 .encabezado2 {
     font-family: 'PT Sans', sans-serif !important;
     font-size: 20px;
     font-weight: 700;
@@ -56,12 +59,81 @@
 
 .texto1 {
   font-family: 'PT Sans', sans-serif !important;
-  font-size: 24px;
+  font-size: 21px;
+  font-weight: 400;
   line-height: 30px;
   vertical-align: baseline;
   letter-spacing: normal;
-  word-spacing: 0px;
+  word-spacing: normal;
   margin: 0px;
   padding: 0px;
+  text-align: justify;
   }
 
+.hi {
+  font-family: 'PT Sans', sans-serif !important;
+  font-weight: 400;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+span {
+  font-family: 'PT Sans', sans-serif !important;
+  font-weight: 800;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+
+footer {
+  font-family: 'PT Sans', sans-serif !important;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: normal;
+  word-spacing: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tres {
+  padding-bottom: 0px;
+}
+
+.cuatro {
+  margin-bottom: 0px;
+}
+
+.card-body { 
+  flex: none;
+}
+
+.about {
+  width: 593px;
+  height: 310px;
+  object-fit: cover;
+  object-position: 50%;
+  
+}
+
+.list-group-item {
+  font-size: 19px;
+}
+
+.card-title {
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: baseline;
+  font-weight: 800;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.card {
+  width: 35rem;
+}
+
+.bf {
+  font-weight: 800;
+}
