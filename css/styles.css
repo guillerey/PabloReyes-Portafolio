@@ -115,6 +115,8 @@ footer {
 
 .list-group-item {
   font-size: 19px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .card-title {
@@ -122,6 +124,10 @@ footer {
   justify-content: center;
   align-items: baseline;
   font-weight: 800;
+}
+
+.uno {
+  padding: 16px 0 16px 0;
 }
 
 .nav-link {
